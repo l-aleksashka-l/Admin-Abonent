@@ -83,9 +83,9 @@ public class Main implements Serializable {
     }
 
     public static void main(String[] args) throws IOException, ClassNotFoundException {
-        String ru = args[0];
-        String by = args[1];
-        String en = args[2];
+        String ru = "RU";
+        String by = "BY";
+        String en = "EN";
         ArrayList<Abonent> abonents = new ArrayList<>();
         Connector connector = new Connector("t.dat");
         Admin admin = new Admin();
